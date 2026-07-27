@@ -13,6 +13,11 @@ import Regs.Registradores;
 import Regs.Registrador;
 import javafx.stage.FileChooser;
 import java.io.*;
+
+/**
+ * Controlador de Interface Gráfica (JavaFX Controller) do Simulador SIC/XE.
+ * Gerencia os componentes visuais, inspeção de memória/registradores e ciclo de execução (Run/Step/Reset).
+ */
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;

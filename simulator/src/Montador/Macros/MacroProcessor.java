@@ -3,6 +3,10 @@ package Montador.Macros;
 import java.io.*;
 import java.util.*;
 
+/**
+ * Processador de Macros para a Arquitetura SIC/XE.
+ * Realiza a expansão de definições de macros, substituição de parâmetros reais e geração do código assembly expandido.
+ */
 public class MacroProcessor {
 
     static class Macro {

@@ -10,6 +10,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Ligador Relocável para a Arquitetura SIC/XE.
+ * Realiza o ligamento de seções de controle, resolução de símbolos externos (EXTDEF/EXTREF) e relocalização.
+ */
 public class Ligador {
     
     private static final String OBJECT_FILE = "simulator\\src\\utils\\object_code.txt"; 

@@ -5,6 +5,10 @@ import Mem.Palavramem;
 import Regs.Registradores;
 import java.io.*;
 
+/**
+ * Carregador de Código Objeto (Absolute & Relocatable Loader) para o SIC/XE.
+ * Processa registros Header, Text, Modification e End, alocando os bytes diretamente na memória principal simulada.
+ */
 public class AbsoluteLoader {
     private Memoria memoria;
     private Registradores registradores;

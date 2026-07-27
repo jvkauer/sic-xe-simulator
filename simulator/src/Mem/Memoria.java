@@ -2,6 +2,10 @@ package Mem;
 
 import java.util.ArrayList;
 
+/**
+ * Abstração de Memória Principal Simulada (1MB / 1000 palavras) para a Arquitetura SIC/XE.
+ * Fornece métodos de leitura e escrita de bytes e palavras de 24 bits.
+ */
 public class Memoria {
     
     public ArrayList<Palavramem> memoria;

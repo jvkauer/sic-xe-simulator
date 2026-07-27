@@ -1,4 +1,8 @@
 package Regs;
+
+/**
+ * Banco de Registradores de Hardware da Arquitetura SIC/XE (A, X, L, B, S, T, F, PC, SW).
+ */
 public class Registradores {
 
 public Registrador[] registradores;

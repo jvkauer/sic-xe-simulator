@@ -3,6 +3,10 @@ package Montador;
 import java.io.*;
 import java.util.*;
 
+/**
+ * Montador de Duas Passagens (Two-Pass Assembler) para a Arquitetura SIC/XE.
+ * Realiza o cálculo do LOCCTR, geração da SYMTAB no Passo 1 e emissão do Código Objeto no Passo 2.
+ */
 public class Assembler {
 
     public static void main(String[] args) {
